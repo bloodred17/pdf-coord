@@ -88,7 +88,7 @@
       y: pdfPos.y,
       size: 11,
       // font: helveticaFont,
-      // color: rgb(0.95, 0.1, 0.1),
+      color: rgb(0, 0, 1),
       // rotate: degrees(-45),
     })
 
