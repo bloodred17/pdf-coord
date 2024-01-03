@@ -13,16 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
 
 @media (prefers-color-scheme: light) {
-  /*:root {*/
-  /*  color: #213547;*/
-  /*  background-color: #ffffff;*/
-  /*}*/
-  /*a:hover {*/
-  /*  color: #747bff;*/
-  /*}*/
-  /*button {*/
-  /*  background-color: #f9f9f9;*/
-  /*}*/
+  :root {
+  }
+}
+
+.draggable {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  z-index: 1000;
+  /*background-image: url("./assets/arrow.svg");*/
+  /*background-repeat: no-repeat;*/
 }
