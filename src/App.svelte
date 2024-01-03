@@ -1,3 +1,7 @@
+<script>
+  import Component from "./lib/Component.svelte";
+</script>
+
 <main>
-  Hello
+  <Component/>
 </main>
