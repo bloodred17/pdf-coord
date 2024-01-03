@@ -133,4 +133,4 @@
 
 </script>
 
-<button on:click={() => downloadData("hello.pdf")}>Hello</button>
+<button on:click={() => downloadData("hello.pdf")}>Download</button>
